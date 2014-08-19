@@ -61,8 +61,8 @@ namespace PacManDuel
             var randomPlayer = random.Next(1, 3);
             if (randomPlayer == 1)
             {
-                playerA = new Player("botA", playerBPath, playerBBot, 'A');
-                playerB = new Player("botB", playerAPath, playerABot, 'B');
+                playerA = new Player("botB", playerBPath, playerBBot, 'A');
+                playerB = new Player("botA", playerAPath, playerABot, 'B');
             }
             else
             {
